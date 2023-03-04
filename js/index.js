@@ -12,7 +12,6 @@ const loadTemp = async (city) => {
 };
 
 const displayTemp = (tempData) => {
-  console.log(tempData);
   // set temperature
   setInnerText("temp", tempData?.main?.temp);
   //   set city
